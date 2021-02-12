@@ -16,8 +16,11 @@ Execute the JAR file. Example below:
 java -jar target/ms-sqlserver-jdbc-1.0.jar "jdbc:sqlserver://mydatabase.db.windows.net:1433;database=My_Example_DB;user=user@example.com;password=secret123;encrypt=true;trustServerCertificate=true;loginTimeout=90;authentication=ActiveDirectoryPassword"
 ```
 
-To test the JDBC connection the app will attempt to connect to SQL Server and execute a single SQL query: `SELECT SUSER_SNAME()` and close connection.
+> *Security Tip*: A good practise is to read the JDBC string into a variable using the `read` command in Linux to prevent DB credenatials in JDBC string logged in bash history.
 
+## How it works
+
+To test the JDBC connection, the app will attempt to connect to SQL Server and execute a single SQL query: `SELECT SUSER_SNAME()` and close connection.
 
 ## License
 (The MIT License)
