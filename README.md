@@ -4,7 +4,7 @@ A simple Spring Boot command line app to test JDBC connection to SQL Server data
 
 ## How to run
 
-Download the JAR from release page or alternatively checkout the code from this repository and run:
+Download the JAR from [release](https://github.com/aimtiaz11/ms-sqlserver-jdbc-tester/releases/tag/1.0) page or alternatively checkout the code from this repository and run:
 
 ```
 mvn clean package
