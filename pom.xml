@@ -56,8 +56,8 @@
             <groupId>com.microsoft.sqlserver</groupId>
             <artifactId>mssql-jdbc</artifactId>
             <version>9.2.0.jre8</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/src/main/lib/mssql-jdbc-9.2.0.jre8.jar</systemPath>
+            <scope>provided</scope>
+
         </dependency>
         
     </dependencies>
