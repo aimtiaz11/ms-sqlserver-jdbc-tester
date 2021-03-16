@@ -2,7 +2,8 @@
 
 A simple Spring Boot command line app to test JDBC connection to SQL Server database.
 
-![Maven Build](https://github.com/aimtiaz11/ms-sqlserver-jdbc-tester/actions/workflows/maven.yml/badge.svg)
+[![Maven Build Status](https://github.com/aimtiaz11/ms-sqlserver-jdbc-tester/actions/workflows/maven.yml/badge.svg)](https://github.com/aimtiaz11/ms-sqlserver-jdbc-tester/actions/workflows/maven.yml)
+
 
 ## How to run
 
