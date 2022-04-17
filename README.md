@@ -1,6 +1,6 @@
 # ms-sqlserver-jdbc-tester
 
-A simple Spring Boot command line app to test JDBC connection to SQL Server database.
+A simple Spring Boot command line application to test JDBC connection to SQL Server database.
 
 [![Maven Build Status](https://github.com/aimtiaz11/ms-sqlserver-jdbc-tester/actions/workflows/maven.yml/badge.svg)](https://github.com/aimtiaz11/ms-sqlserver-jdbc-tester/actions/workflows/maven.yml)
 
@@ -19,7 +19,7 @@ Execute the JAR file. Example below:
 java -jar target/ms-sqlserver-jdbc-1.0.jar "jdbc:sqlserver://mydatabase.db.windows.net:1433;database=My_Example_DB;user=user@example.com;password=secret123;encrypt=true;trustServerCertificate=true;loginTimeout=90;authentication=ActiveDirectoryPassword"
 ```
 
-> *Security Tip*: A good practise is to read the JDBC string into a variable using the `read` command in Linux to prevent DB credenatials in JDBC string logged in bash history.
+> *Security Tip*: A good practise is to read the JDBC string into a variable using the `read` command in Linux to prevent DB credentials in JDBC string to be logged in bash history.
 
 ## How it works
 
